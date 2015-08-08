@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:patternview="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <com.eftimoff.patternview.PatternView
+        android:id="@+id/patternView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        patternview:pathColor="@color/primary_dark_material_light"
+        patternview:circleColor="@color/highlighted_text_material_light"
+        patternview:gridSize="3"/>
+
+</FrameLayout>
